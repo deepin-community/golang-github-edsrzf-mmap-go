@@ -1,5 +1,79 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-github-edsrzf-mmap-go (1.1.0-1) unstable; urgency=medium
 
-  * Initial release
+  * Adopt package by Debian Go Packaging Team (Closes: #889257)
+  * Add myself as uploader
+  * New upstream release
+  * Update gbp.conf to current team workflow
+  * Add new build-dep golang-golang-x-sys-dev
+  * Bump Standards-Version to 4.6.1 (no changes)
+  * debian/control: add Multi-Arch: foreign, change Section to golang
+  * debian/control: replace dh-golang with dh-sequence-golang
+  * debian/control: add Rules-Requires-Root: no
+  * Re-add debian/watch
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Daniel Swarbrick <dswarbrick@debian.org>  Wed, 12 Oct 2022 13:17:07 +0000
+
+golang-github-edsrzf-mmap-go (0.0~git20170320.0.0bce6a6-7) unstable; urgency=medium
+
+  * QA upload.
+
+  [ Debian Janitor ]
+  * Bump debhelper from old 10 to 13.
+  * Set debhelper-compat version in Build-Depends.
+  * Change priority extra to priority optional.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit.
+  * Update standards version to 4.1.1, no changes needed.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Wed, 25 May 2022 12:05:15 +0100
+
+golang-github-edsrzf-mmap-go (0.0~git20170320.0.0bce6a6-6) unstable; urgency=medium
+
+  * QA upload.
+
+  [ Alexandre Viau ]
+  * Point Vcs-* urls to salsa.debian.org.
+
+  [ Jelmer Vernooĳ ]
+  * Fix Debian QA group name.
+  * Use secure copyright file specification URI.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Tue, 02 Feb 2021 15:37:14 +0000
+
+golang-github-edsrzf-mmap-go (0.0~git20170320.0.0bce6a6-5) unstable; urgency=medium
+
+  * Remove Michael Lustfield from Uploaders list.
+
+ -- Michael Lustfield <michael@lustfield.net>  Sat, 03 Feb 2018 12:13:27 -0600
+
+golang-github-edsrzf-mmap-go (0.0~git20170320.0.0bce6a6-4) unstable; urgency=medium
+
+  * Oprhaning package.
+
+ -- Michael Lustfield <michael@lustfield.net>  Fri, 02 Feb 2018 23:15:58 -0600
+
+golang-github-edsrzf-mmap-go (0.0~git20170320.0.0bce6a6-3) unstable; urgency=medium
+
+  * Remove invalid d/watch file.
+
+ -- Michael Lustfield <michael@lustfield.net>  Mon, 02 Oct 2017 00:33:31 -0500
+
+golang-github-edsrzf-mmap-go (0.0~git20170320.0.0bce6a6-2) unstable; urgency=medium
+
+  * Maintenance updates:
+    - Standards-Version bump.
+    - Clean up d/watch.
+    - Add Testsuite to d/control.
+
+ -- Michael Lustfield <michael@lustfield.net>  Wed, 27 Sep 2017 21:50:15 -0500
+
+golang-github-edsrzf-mmap-go (0.0~git20170320.0.0bce6a6-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Michael Lustfield <michael@lustfield.net>  Mon, 17 Jul 2017 17:45:41 -0500
+
+golang-github-edsrzf-mmap-go (0.0~git20160512.0.935e0e8-1) unstable; urgency=medium
+
+  * Initial release (Closes: #855665)
+
+ -- Michael Lustfield <michael@lustfield.net>  Mon, 20 Feb 2017 22:39:15 -0600
